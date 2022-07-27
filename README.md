@@ -1,1 +1,73 @@
 # Binary-Search-Tree-Project-3
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+  Aşamalar;
+1.aşama : Root 7 dir. 7
+2.aşama :5 rootun solundadır. 5<7
+                    7
+                   /
+                  5
+3.aşama :   1 rootun solundadır (5'inde solundadır). 1<7
+                    7
+                   /
+                  5
+                 /
+                1
+4.aşama :   8 rootun sağındadır. 8>7
+                    7
+                   / \
+                  5   8
+                 /
+                1
+5.aşama :  3 rootun solundadır (1'in sağında, 5'in solundadır). 3<7
+                    7
+                   / \
+                  5   8
+                 /
+                1
+                 \
+                  3
+6.aşama :6 rootun solundadır. (5'in sağındadır.) 6<7
+                    7
+                   / \
+                  5   8
+                 / \
+                1   6
+                 \
+                  3
+7.aşama : 0 rootun solundadır. (1'in solundadır) 0<7
+                    7
+                   / \
+                  5   8
+                 / \
+                1   6
+               / \
+              0   3
+8.aşama :   9 rootun sağındadır. 9>7
+                    7  
+                   / \
+                  5   8
+                 / \   \
+                1   6   9
+               / \
+              0   3
+9.aşama :  4 rootun solundadır. (3'ün sağındadır,5'in solundadır.) 4<7
+                    7
+                   / \
+                  5   8
+                 / \   \
+                1   6   9
+               / \
+              0   3
+                   \
+                    4
+10.aşama :   2 rootun solundadır. (1'in sağında, 3'ün solundadır.) 2<7
+                    7
+                   / \
+                  5   8
+                 / \   \
+                1   6   9
+               / \
+              0   3
+                 / \
+                2   4
